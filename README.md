@@ -1,7 +1,7 @@
 # NYCUCS-2024-WebProgramming
 授課教授：嚴力行
 ## lab1
-![image.png]()
+![image.png](https://github.com/annguo1106/NYCUCS-2024-WebProgramming/blob/main/Assets/lab1.png)
 1. send the student id to the server
 2. get two numbers from the server
 3. calculate the GCD of these two numbers
