@@ -20,7 +20,7 @@
 5. when receiving stop, send “$number_of_lines $local_ip” to the server
 6. if the number of lines and local IP are correct, server return “ok” and end the connection.
 7. if any reason, server return “bad”, the line sent won’t be counted.
-**all of the above should be done using FD_SELECT to handle stdin/sock simultaneously.**
+8. **all of the above should be done using FD_SELECT to handle stdin/sock simultaneously.**
 
 ## lab3
 <img src="Assets/lab3.png" width=30%>
@@ -42,8 +42,8 @@
 5. when all the replies are correct, teacher’s UDP server will reply OK, then all the process is done.
    
 ## lab5
-<img src="Assets/lab5.png" width=30%>
+<img src="Assets/lab5.png" width=50%>
 
 ## lab6
-<img src="Assets/lab6-0.png" width=30%>
-<img src="Assets/lab6-1.png" width=30%>
+<img src="Assets/lab6-0.png" width=50%>
+<img src="Assets/lab6-1.png" width=50%>
