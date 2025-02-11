@@ -2,12 +2,14 @@
 授課教授：嚴力行
 ## lab1
 <img src="Assets/lab1.png" width="30%">
+<list>
 1. send the student id to the server
 2. get two numbers from the server
 3. calculate the GCD of these two numbers
 4. send the answer back to the server
    a. if receive nak: means some error occur, get two new numbers from the server again
    b. else if receive ok: everything’s correct, finish connection!
+</list>
 ## lab2
 <img src="Assets/lab2.png" width=30%>
 1. send “$student_id $local_ip” to server
