@@ -2,7 +2,7 @@
 授課教授：嚴力行
 ## lab1
 <img src="Assets/lab1.png" width="30%">
-<list>
+
 1. send the student id to the server
 2. get two numbers from the server
 3. calculate the GCD of these two numbers
