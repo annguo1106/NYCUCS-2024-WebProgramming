@@ -69,3 +69,6 @@
 4. when a new client entered the room, the server should notify all the others in the chatting room.
 5. when the client pressed Ctrl+C/Ctrl+D to leave the chatting room, the server should be able to process and notify others in the chatting room.
 6. if there are already ten clients in the room, the eleventh client should wait for a client to leave the room before he/she could enter the room.
+
+## final project
+https://github.com/annguo1106/2024-webProgramming-final-project
