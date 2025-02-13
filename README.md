@@ -1,11 +1,11 @@
 # NYCUCS-2024-WebProgramming
 授課教授：嚴力行
 ## env setup
-env: Ubuntu
-requirements: gcc & make
-download: https://people.cs.nycu.edu.tw/~lhyen/np/unpv13e.tar.gz
-- After extracting, follow the instructions in the README file to proceed with the installation.
-- modify the type of the fourth parameter size in the inet_ntop function on line 60 of libfree/inet_ntop.c, changing it from size_t to socklen_t to prevent the error when executing make.
+- env: Ubuntu
+- requirements: gcc & make
+- download: https://people.cs.nycu.edu.tw/~lhyen/np/unpv13e.tar.gz
+   - After extracting, follow the instructions in the README file to proceed with the installation.
+   - modify the type of the fourth parameter size in the inet_ntop function on line 60 of libfree/inet_ntop.c, changing it from size_t to socklen_t to prevent the error when executing make.
 
 ## lab1
 <img src="Assets/lab1.png" width="30%">
