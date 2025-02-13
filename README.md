@@ -1,5 +1,12 @@
 # NYCUCS-2024-WebProgramming
 授課教授：嚴力行
+## env setup
+env: Ubuntu
+requirements: gcc & make
+download: https://people.cs.nycu.edu.tw/~lhyen/np/unpv13e.tar.gz
+- After extracting, follow the instructions in the README file to proceed with the installation.
+- modify the type of the fourth parameter size in the inet_ntop function on line 60 of libfree/inet_ntop.c, changing it from size_t to socklen_t to prevent the error when executing make.
+
 ## lab1
 <img src="Assets/lab1.png" width="30%">
 
@@ -42,8 +49,23 @@
 5. when all the replies are correct, teacher’s UDP server will reply OK, then all the process is done.
    
 ## lab5
-<img src="Assets/lab5.png" width=50%>
+<img src="Assets/lab5-0.png" width=50%>
+<img src="Assets/lab5-1.png" width=50%>
+
+1. wait for two continuous client connections to build the chatting room.
+2. each chatting rooms are independent to each other
+3. when a client sent a message, the server should add the client’s ID in front of the message before sent it to others
+4. when a new client entered the room, the server should notify all the others in the chatting room.
+5. The clients should be able to send messages in any orders
+6. after a user press Ctrl+D, Server should let the other one knows, and end the chatting room when the other also press Ctrl+D to leave the room.
 
 ## lab6
 <img src="Assets/lab6-0.png" width=50%>
 <img src="Assets/lab6-1.png" width=50%>
+
+1. build a chatting room for at most ten people
+2. clients can send messages in any order
+3. when a client sent a message, the server should add the client’s ID in front of the message before sent it to others
+4. when a new client entered the room, the server should notify all the others in the chatting room.
+5. when the client pressed Ctrl+C/Ctrl+D to leave the chatting room, the server should be able to process and notify others in the chatting room.
+6. if there are already ten clients in the room, the eleventh client should wait for a client to leave the room before he/she could enter the room.
